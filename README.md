@@ -37,6 +37,7 @@ Jalankan perintah berikut di terminal:
 Bash
 
 node RSA.js
+
 4. Kustomisasi Pesan (Opsional)
 Jika Anda ingin mencoba mengenkripsi kata atau kalimat lain, Anda dapat mengedit file RSA.js menggunakan text editor (seperti VS Code, Notepad, dll).
 Cari baris kode berikut (di bagian bawah file):
