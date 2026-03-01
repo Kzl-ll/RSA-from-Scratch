@@ -52,7 +52,7 @@ Ganti kata "HELLO" dengan pesan apa pun yang Anda inginkan, lalu simpan file dan
 
 Contoh Output ProgramSaat dijalankan, program akan menghasilkan output dinamis di terminal (karena nilai $p$ dan $q$ dibangkitkan secara acak). Berikut adalah contoh log yang akan muncul:
 
-Plaintext=== SIMULASI ALGORITMA RSA ===
+=== SIMULASI ALGORITMA RSA ===
 
 1. Membangkitkan Kunci (Key Generation) dengan p=839 dan q=443...
 
