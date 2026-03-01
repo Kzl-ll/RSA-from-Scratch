@@ -67,6 +67,8 @@ Contoh Output ProgramSaat dijalankan, program akan menghasilkan output dinamis d
 4. Proses Dekripsi (Plaintext hasil dekripsi): "HELLO"
 
 Simulasi Selesai! Pesan berhasil dikembalikan dengan utuh.
+
+
 Struktur Fungsi 
 
 Kodegcd(a, b): Mencari Faktor Persekutuan Terbesar (FPB).
