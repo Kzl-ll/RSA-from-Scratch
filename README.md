@@ -50,7 +50,10 @@ const pesanAsli = "HELLO";
 
 Ganti kata "HELLO" dengan pesan apa pun yang Anda inginkan, lalu simpan file dan jalankan ulang perintah node RSA.js.
 
-📝 Contoh Output ProgramSaat dijalankan, program akan menghasilkan output dinamis di terminal (karena nilai $p$ dan $q$ dibangkitkan secara acak). Berikut adalah contoh log yang akan muncul:Plaintext=== SIMULASI ALGORITMA RSA ===
+Contoh Output ProgramSaat dijalankan, program akan menghasilkan output dinamis di terminal (karena nilai $p$ dan $q$ dibangkitkan secara acak). Berikut adalah contoh log yang akan muncul:
+
+Plaintext=== SIMULASI ALGORITMA RSA ===
+
 1. Membangkitkan Kunci (Key Generation) dengan p=839 dan q=443...
 
 -> Kunci Publik (e, n): 3 , 371677
