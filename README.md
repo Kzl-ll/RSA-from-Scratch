@@ -45,17 +45,35 @@ Cari baris kode berikut (di bagian bawah file):
 JavaScript
 
 // Pesan yang akan dienkripsi
+
 const pesanAsli = "HELLO";
+
 Ganti kata "HELLO" dengan pesan apa pun yang Anda inginkan, lalu simpan file dan jalankan ulang perintah node RSA.js.
 
 📝 Contoh Output ProgramSaat dijalankan, program akan menghasilkan output dinamis di terminal (karena nilai $p$ dan $q$ dibangkitkan secara acak). Berikut adalah contoh log yang akan muncul:Plaintext=== SIMULASI ALGORITMA RSA ===
 1. Membangkitkan Kunci (Key Generation) dengan p=839 dan q=443...
+
 -> Kunci Publik (e, n): 3 , 371677
+
 -> Kunci Privat (d, n): 247155 , 371677
 
 2. Pesan Asli (Plaintext): "HELLO"
+
 3. Proses Enkripsi (Ciphertext Array): [ '364539', '196884', '20199', '20199', '292271' ]
+
 4. Proses Dekripsi (Plaintext hasil dekripsi): "HELLO"
 
 Simulasi Selesai! Pesan berhasil dikembalikan dengan utuh.
-📂 Struktur Fungsi Kodegcd(a, b): Mencari Faktor Persekutuan Terbesar (FPB).modInverse(e, phi): Extended Euclidean Algorithm untuk mencari kunci privat ($d$).modExp(base, exp, mod): Modular Exponentiation efisien untuk menghitung $C = M^e \pmod n$ dan $M = C^d \pmod n$.isPrime(num): Mengecek keprimaan suatu angka (menggunakan optimasi $6k \pm 1$).generateRandomPrime(min, max): Mencari angka prima secara acak dalam batas tertentu.class RSA: Mengelola logika penggabungan kunci, proses enkripsi, dan dekripsi.
+Struktur Fungsi 
+
+Kodegcd(a, b): Mencari Faktor Persekutuan Terbesar (FPB).
+
+modInverse(e, phi): Extended Euclidean Algorithm untuk mencari kunci privat ($d$).
+
+modExp(base, exp, mod): Modular Exponentiation efisien.
+
+isPrime(num): Mengecek keprimaan suatu angka.
+
+generateRandomPrime(min, max): Mencari angka prima secara acak dalam batas tertentu.
+
+class RSA: Mengelola logika penggabungan kunci, proses enkripsi, dan dekripsi.
